@@ -17,7 +17,7 @@ function App() {
 		const URL = ""
 		const data = await fetch(URL, {
 			method: "POST",
-			body: JSON.stringify({ query }),
+			body: JSON.stringify({ text: query }),
 		})
 	}, [getData])
 	return (
