@@ -6,6 +6,13 @@ function App() {
 	const [query, setQuery] = useState("")
 	const [getData, setData] = useState(false)
 	const [show, setShow] = useState(true)
+	const [emergency, bypass] = useState(false)
+
+	useEffect(async () => {
+		const URL = "https://api.askdata.com/smartinsight/data/nl/result"
+		const token = "6c84080a-8de0-40aa-bff0-d0d70e57e2c0"
+	}, [emergency])
+
 	useEffect(async () => {
 		const URL = ""
 		const data = await fetch(URL, {
