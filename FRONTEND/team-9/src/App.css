@@ -2,6 +2,8 @@
 	text-align: center;
 	height: 100vh;
 	width: 100vw;
+	background-color: dimgray;
+	color: whitesmoke;
 }
 
 .App-logo {
